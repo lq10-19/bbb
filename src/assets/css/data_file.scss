@@ -1,0 +1,118 @@
+.body_box {
+    background-color: #fff;
+    padding: 0.5rem 0.3rem 1.5rem 0.3rem;
+    font-family: "PingFangSC-Medium", "PingFang SC";
+    font-weight: 500;
+    line-height: 0.48rem;
+    font-size: 0.28rem;
+
+    .title {
+        font-size: 0.34rem;
+        color: rgba(0, 0, 0, 1);
+        line-height: 0.34rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .title_1 {
+        font-size: 0.28rem;
+        color: #333;
+        line-height: 0.48rem;
+    }
+
+    .title_2 {
+        margin-top: 0.3rem;
+    }
+
+    .Signature {
+        font-size: 0.3rem
+    }
+
+    .indent {
+        text-indent: 0.5rem;
+    }
+
+    .indent_1 {
+        text-indent: 1rem;
+    }
+
+    .weight_600 {
+        font-weight: 600;
+    }
+
+    .weight_700 {
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .weight_800 {
+        font-weight: 800;
+        color: #000000;
+    }
+
+    .weight_900 {
+        font-weight: 900;
+        color: #000000;
+    }
+
+    .color_666 {
+        color: #666666;
+    }
+
+    .color_333 {
+        color: #333333;
+    }
+
+    .color_000 {
+        color: #000000;
+    }
+
+    .color_FF3A31 {
+        color: #FF3A31;
+    }
+
+    .top_1 {
+        margin-top: 0.1rem;
+    }
+
+    .top_2 {
+        margin-top: 0.2rem;
+    }
+
+    .top_3 {
+        margin-top: 0.3rem;
+    }
+
+    .top_4 {
+        margin-top: 0.4rem;
+    }
+
+    .top_6 {
+        margin-top: 0.6rem;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 0.25rem;
+        height: 0.25rem;
+        background: url('../../assets/img/gou@2x.png') no-repeat;
+        background-size: 100% 100%;
+        transform: translateY(0.02rem)
+    }
+
+    .text_line {
+        text-decoration: underline;
+    }
+
+    .margin_2 {
+        margin: 0 0.2rem;
+    }
+
+    .padding_2 {
+        padding: 0 0.2rem;
+    }
+
+    .edition {
+        text-align: right;
+    }
+}

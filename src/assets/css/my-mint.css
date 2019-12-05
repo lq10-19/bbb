@@ -1,0 +1,16 @@
+/* 自定义覆盖样式 */
+/*排序列表*/
+.mint-indexsection-index{
+    color: #333;
+    font-size: 0.22rem;
+    background: #f2f3f5;
+}
+.mint-cell-text{
+    color: #444;
+    font-size: 0.28rem;
+}
+
+.mint-cell{
+    border-bottom: 1px solid #f2f3f5;
+    height: 1rem;
+}

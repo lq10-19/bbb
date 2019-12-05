@@ -1,0 +1,41 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode development",
+    "dev2": "vue-cli-service serve --mode uat",
+    "dev-preview": "vue-cli-service serve --mode preview",
+    "build": "vue-cli-service build --mode production",
+    "build-sit": "vue-cli-service build --mode sit",
+    "build-uat": "vue-cli-service build --mode uat",
+    "pro-build": "vue-cli-service build --mode onLine",
+    "build-preview": "vue-cli-service build --mode preview",
+    "lite-server": "lite-server --baseDir=dist"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "core-js": "^2.6.5",
+    "exif-js": "^2.3.0",
+    "mint-ui": "^2.2.13",
+    "store": "^2.0.12",
+    "vant": "^2.0.6",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.0",
+    "vue-pdf": "^4.0.7",
+    "vue-router": "^3.0.3",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
